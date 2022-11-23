@@ -1,0 +1,27 @@
+.inside{
+    list-style-position: inside;
+ }
+body{
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+
+
+h1 {
+    color: red;
+  }
+
+ul{
+    font-size: 1em;
+}
+
+div{
+    border: solid 0.3em;
+    width: auto;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-color: rgb(121, 44, 156);
+    background-color:#A5F1E9;
+}
+
