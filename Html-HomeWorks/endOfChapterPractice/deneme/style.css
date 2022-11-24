@@ -1,0 +1,40 @@
+
+/* Seçici ile işaretlenen etiketin üzerine mouse ile gelindiğinde CSS uygalanır ve mouse üzerinde değilken etki kaybolur. */
+a.test:hover {
+    color: red;
+  }
+
+/* Mouse ile tıklandığında CSS uygulanır. Tıklama kaldırıldığında etki kaybolur. */
+
+  a:active {
+    position: relative;
+    top: 5px;
+  }
+  
+  
+  /* Daha önce tarayıcıda açılmamış linke CSS uygular. Not: Etkisini görmek için tarayıcıya geçmişi temizlemek gerekebilir. */
+  a#google:link {
+    color: red;
+  }
+  
+  /* Genel kardeş seçiciden tek farkı belirtilen etiketler bitişik arka arkaya gelmeliler. + işareti ile gösterilir. */
+  ul + p{
+    color:green;
+  }
+
+
+  a[href *= "http"] {
+    color: palegreen;
+  }
+
+  .btn[disabled] {
+    color: orchid;
+  }
+/* Bu seçiciler ile özelliğini belirttiğimiz elementlere CSS uygulayabiliriz. Özelliğin içi boş olsada element bundan etkilenecektir. Özelliklere erişmek için yapmamız gereken tek şey köşeli parantezler içinde özelliğin ismini [attribute] şeklinde yazıyoruz. */
+  [name]{
+    color: orange;
+  }
+ 
+  .container > p.intro + ul > li:first-child {
+    color: orange;
+    }

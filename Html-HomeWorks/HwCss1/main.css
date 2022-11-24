@@ -25,3 +25,7 @@ div{
     background-color:#A5F1E9;
 }
 
+a.test:hover {
+    color: red;
+  }
+ 

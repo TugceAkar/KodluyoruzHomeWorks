@@ -1,0 +1,53 @@
+
+
+  
+#sec-a{
+    width:  auto;
+    background-color: #EEEEEE;
+    
+}
+
+.all{
+    margin: 0 50px 0 50px ;
+}
+
+.container{
+    width: 1203px;
+    margin-top: 5px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+
+#sec-b{
+    background-color: #7EE5DA;
+    float: left;
+    width: 450px;
+
+}
+
+
+#sec-c{
+
+    float: left;
+    background-color: #70CCC2;
+    padding: 9px;
+    width: 200px;
+    margin-left: 5px;
+}
+
+#sec-d{
+
+    float: right;
+    background-color: #62B3AA;
+    width: 525px;
+    margin-left: 0px;
+    padding-bottom: 11px;
+
+
+}
+
+.end{
+    padding-top: 100px;
+}
