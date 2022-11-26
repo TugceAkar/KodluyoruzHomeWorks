@@ -66,6 +66,9 @@ $RECYCLE.BIN/
 #images
 *.jpg
 *.jpeg
+*.png
+*.svg
+
 
 #taslak
 *.txt
