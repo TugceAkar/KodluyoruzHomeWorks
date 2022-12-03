@@ -1,0 +1,45 @@
+.bg-yellow{
+    background-color:#FFC018;
+}
+.border-bottom-dark{
+    border-bottom: 1px solid rgba(41, 41, 41, 1);
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+.icon{
+    width: 170px;
+    height: 50px;
+}
+.border-radius{
+    border-radius: 99em;
+    font-size: 14px;
+    background-color: black;
+    width: 110px;
+}
+
+.number{
+    font-size: 30px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: rgba(230, 230, 230, 1);
+}
+.aside-buttons > li{
+    margin-bottom: 10px;
+    
+ 
+}
+.margint{
+    margin-top: 20px;
+}
+.liborder{
+    border: 1px solid rgba(230, 230, 230, 1);
+}
+.litext{
+    color :rgba(117, 117, 117, 1);
+}
+
+.emptytop{
+    margin-top: -10px;
+}
